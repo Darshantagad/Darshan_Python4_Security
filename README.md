@@ -84,3 +84,33 @@ Decision (Diamond): Is the IP IN the list?
 YES: Alert!
 
 NO: Proceed.
+
+
+
+2. Project 4: The Automated Port Scanner (Loops)
+The Port Scanner
+What: A script that uses a for loop to check a range of numbers.
+
+Why: In Cloud Security, you don't check one port; you scan the whole server. Manual checking is for the 99%; automation is for the Top 1%.
+
+Where: Used by security tools to find "Shadow IT" (unauthorized services running on a cloud server).
+
+How: Using the for port in range() syntax.
+
+
+
+so guys some to push new prjfile to github in same folder do this
+
+#### 
+# 1. Stage only the new file (or all changes)
+git add 04_port_scanner.py
+
+# 2. Commit with a specific message
+git commit -m "Added Project 4: Automated Port Scanner logic using Loops"
+
+# 3. Push to the cloud
+git push 
+
+
+ Then push the README update too:
+git add README.md -> git commit -m "Updated README for Project 4" -> git push.
