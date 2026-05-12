@@ -141,3 +141,36 @@ How: Using the def keyword.
 
 OS & Networking: What is a "Target IP"?
 ---- A target is the specific server you are auditing. In the cloud, targets change constantly. Your code must be flexible enough to handle any IP you throw at it.
+
+
+1. The Fix: The "Git Pull" Sync
+Run this command to merge the cloud changes with your local changes:
+
+Bash
+# Pull the changes from GitHub to your PC
+git pull origin main --rebase
+
+# Now that you are synced, push your project 5
+git push origin main
+
+
+# 1. Abort the stuck rebase to start fresh
+git rebase --abort
+
+# 2. Force your local code onto GitHub (Overwrites the cloud version)
+git push origin main --force
+
+
+Project 6:
+
+
+
+The Algorithm: The Evidence Recorder:
+
+Define an event (e.g., "Unauthorized Access").
+
+Open the file in Append (a) mode. (This ensures we don't delete old logs).
+
+Write the event text.
+
+Close the file (automatically handled by with

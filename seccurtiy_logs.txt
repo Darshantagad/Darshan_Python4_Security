@@ -1,0 +1,3 @@
+[SECURITY ALERT] Brute force attack detected on Port 22
+[SECURITY ALERT] Unencrypted S3 Bucket created by user: Admin_D
+[SECURITY ALERT] Database access requested from unauthorized IP: 192.168.5.5
