@@ -114,3 +114,30 @@ git push
 
  Then push the README update too:
 git add README.md -> git commit -m "Updated README for Project 4" -> git push.
+
+Project 5 (Advanced Logic): The Modular Security Audito
+
+
+The Algorithm: The Modular Scanner
+Define a function called scan_server.
+
+Input (Argument): Give it a server_name and its open_ports.
+
+Process: Loop through the ports and print a report.
+
+Action: Call the function for "Web-Server" and then for "Database-Server."
+
+---------- functions --------------------
+What: A named block of code that performs a specific task. You "define" it once and "call" it many times.
+
+Why: In Cloud Security, you might have one "Scanner" function. You can run it on your AWS Mumbai region, then your AWS US-East region, just by changing the input. Top 1% engineers follow the DRY principle: Don't Repeat Yourself.
+
+Where: In every professional library like boto3 (AWS Python SDK).
+
+How: Using the def keyword.
+
+
+
+
+OS & Networking: What is a "Target IP"?
+---- A target is the specific server you are auditing. In the cloud, targets change constantly. Your code must be flexible enough to handle any IP you throw at it.
