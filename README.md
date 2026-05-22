@@ -174,3 +174,29 @@ Open the file in Append (a) mode. (This ensures we don't delete old logs).
 Write the event text.
 
 Close the file (automatically handled by with
+
+
+now we are going to building while learning
+
+Object-Oriented Programming (OOP) — Managing Cloud Infrastructure at Scale.
+
+3W1H: Object-Oriented Programming (OOP)
+What: A programming style where we bundle data (variables) and actions (functions) together into a single blueprint called a Class. An instance of that blueprint is called an Object.
+
+Why: In Cloud Security, treating everything as loose variables gets messy fast. If you have 500 cloud servers, you don't want 500 loose IP variables. You want a single CloudServer blueprint so you can manage them instantly.
+
+Where: This is how AWS built Boto3 (the official Python SDK for AWS). Every EC2 instance, S3 bucket, and IAM user in Boto3 is an Object.
+
+How: Using the class keyword and the initialization constructor def __init__(self):
+
+
+he Algorithm: The Cloud Resource Blueprint
+Define a Class called CloudServer.
+
+Initialize (__init__) it with essential traits: name, ip, and iam_role.
+
+Create a Method (Function inside class) called check_compliance.
+
+Decision (Diamond): If iam_role is "Admin" and the server is public, flag a critical violation.
+
+Instantiate: Create actual objects for your Web Server and Database Server.
