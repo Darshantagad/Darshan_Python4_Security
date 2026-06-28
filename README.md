@@ -238,3 +238,9 @@ Before writing the logic, let's look at the real-world operational problems this
 Network Timeout: Your script tries to connect to an AWS instance IP, but a network firewall drops the connection packet. Without handling, Python throws a TimeoutError and kills the script.
 
 Input Malformation: A hacker injects malicious, non-standard text into a form or log file hoping to crash your logging agent (a type of Denial of Service attack).
+
+
+
+### Project 9: Automated OS Ping Scanner
+- **Concepts:** Subprocess Module, Operating System Commands, System Status Return Codes.
+- **Security Use Case:** Automating network connectivity verification and asset discovery at the infrastructure layer.
