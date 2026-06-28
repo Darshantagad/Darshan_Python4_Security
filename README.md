@@ -244,3 +244,34 @@ Input Malformation: A hacker injects malicious, non-standard text into a form or
 ### Project 9: Automated OS Ping Scanner
 - **Concepts:** Subprocess Module, Operating System Commands, System Status Return Codes.
 - **Security Use Case:** Automating network connectivity verification and asset discovery at the infrastructure layer.
+
+
+10: The socket Module — Building Your First Real Network Port Scanner.
+Project 10 (High-Value Practical): The Live Port Knocker
+
+
+What: A built-in Python library that provides access to the low-level network communication layer of the operating system (TCP/IP).
+
+Why: Instead of simulating open ports like we did in Phase 1, the socket module allows your script to act like a real hacker tool or a security scanner. It knocks on a digital door (port) of a server to check if it's open.
+
+Where: This is the foundational technology behind industry-standard scanning utilities like Nmap.
+
+How: By using socket.socket() to establish a network connection hand-shake.
+
+Start.
+
+Import the socket module.
+
+Set the target host (we will use localhost which means your own computer to keep it legal and safe).
+
+Try: Open a TCP socket connection to a specific port (e.g., 80 or 135).
+
+Set a Timeout (e.g., 2 seconds) so the script doesn't wait forever if the port is closed.
+
+Decision (Diamond): Did the connection return a code of 0?
+
+YES: Print "Port is OPEN."
+
+NO: Print "Port is CLOSED."
+
+End.
